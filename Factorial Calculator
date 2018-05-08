@@ -1,0 +1,10 @@
+try:
+    def factorial(n):
+        if n == 0:
+            return 1
+        else:
+            return n*factorial(n-1)
+    n = int(input('Please Enter a Number: \n'))
+    print(factorial(n))
+except:
+    print('You have entered a wrong number ')
